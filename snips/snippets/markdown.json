@@ -1,0 +1,11 @@
+{
+    "txtblock": {
+        "prefix": "txt",
+        "body": [
+            "```txt",
+            "$0",
+            "```"
+        ],
+        "description": "Snippet for error"
+    }
+}
