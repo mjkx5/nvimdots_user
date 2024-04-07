@@ -32,4 +32,10 @@ completion_tool["hrsh7th/nvim-cmp"] = {
 	},
 }
 
+completion_tool["dnlhc/glance.nvim"] = {
+	lazy = true,
+	event = "LspAttach",
+	config = require("configs.completion.glance"),
+}
+
 return completion_tool
