@@ -27,4 +27,8 @@ settings["lsp_deps"] = function(defaults)
 	}
 end
 
+settings["null_ls_deps"] = {
+	"black", -- python format
+}
+
 return settings
