@@ -27,6 +27,31 @@ settings["lsp_deps"] = function(defaults)
 	}
 end
 
+settings["treesitter_deps"] = function(defaults)
+	return {
+		"bash",
+		"c",
+		"cpp",
+		"css",
+		"go",
+		"gomod",
+		"html",
+		"javascript",
+		"json",
+		-- "latex", -- disable latex
+		"lua",
+		"make",
+		"markdown",
+		"markdown_inline",
+		"python",
+		"rust",
+		"typescript",
+		"vimdoc",
+		"vue",
+		"yaml",
+	}
+end
+
 settings["null_ls_deps"] = {
 	"black", -- python format
 }
