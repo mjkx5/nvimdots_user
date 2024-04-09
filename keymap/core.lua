@@ -16,8 +16,6 @@ return {
 	["n|<leader>mp"] = map_cmd('o<esc>"mp^'):with_noremap():with_desc("paste m register to current window"),
 	["n|<leader>ns"] = map_cmd("a {s} "):with_noremap():with_desc("print struct"),
 	["n|<leader>ni"] = map_cmd("a {i} "):with_noremap():with_desc("print interface"),
-	["n|<cr>"] = map_cmd("zt"):with_desc("Redraw, line [count] at top of window"),
-	["n|<s-cr>"] = map_cmd("zb"):with_desc("Redraw, line [count] at top of window"),
 	["n|mm"] = map_cmd("zt"):with_desc("Redraw, line [count] at top of window"),
 	["n|mn"] = map_cmd("zb"):with_desc("Redraw, line [count] at top of window"),
 	["t|<c-cr>"] = map_cmd([[<C-\><C-n>]]):with_noremap():with_silent(), -- switch to normal mode in terminal.
