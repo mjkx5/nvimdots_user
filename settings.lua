@@ -13,6 +13,7 @@ settings["gui_config"] = {
 
 settings["disabled_plugins"] = {
 	"nvim-tree/nvim-tree.lua",
+	"fatih/vim-go",
 }
 
 settings["lsp_deps"] = function(defaults)
@@ -27,7 +28,7 @@ settings["lsp_deps"] = function(defaults)
 	}
 end
 
-settings["treesitter_deps"] = function(defaults)
+settings["treesitter_deps"] = function(defaults) -- highlight
 	return {
 		"bash",
 		"c",
@@ -52,7 +53,7 @@ settings["treesitter_deps"] = function(defaults)
 	}
 end
 
-settings["null_ls_deps"] = {
+settings["null_ls_deps"] = { -- format
 	"black", -- python format
 }
 
