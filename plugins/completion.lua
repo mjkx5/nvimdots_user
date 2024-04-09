@@ -3,7 +3,7 @@ local completion_tool = {}
 completion_tool["hrsh7th/nvim-cmp"] = {
 	lazy = true,
 	event = "InsertEnter",
-	config = require("completion.cmp"),
+	-- config = require("completion.cmp"),
 	dependencies = {
 		{
 			"L3MON4D3/LuaSnip",
