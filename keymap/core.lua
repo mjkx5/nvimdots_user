@@ -19,4 +19,9 @@ return {
 	["n|mm"] = map_cmd("zt"):with_desc("Redraw, line [count] at top of window"),
 	["n|mn"] = map_cmd("zb"):with_desc("Redraw, line [count] at top of window"),
 	["t|<c-cr>"] = map_cmd([[<C-\><C-n>]]):with_noremap():with_silent(), -- switch to normal mode in terminal.
+
+	-- python replace log
+	-- ["n|ml"] = map_cmd(
+	-- 	[[:%s/print("\(.*\)")/\=printf('print("%s , file: %s, line: %s")', submatch(1), expand("%:p"), line("."))/g<cr>]]
+	-- ),
 }
