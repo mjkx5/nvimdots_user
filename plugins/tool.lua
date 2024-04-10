@@ -7,4 +7,15 @@ user_tool["pysan3/fcitx5.nvim"] = {
 	config = require("tool.fcitx5"),
 }
 
+user_tool["skywind3000/asynctasks.vim"] = {
+	lazy = true,
+	dependencies = {
+		"skywind3000/asyncrun.vim",
+	},
+	cmd = {
+		"AsyncTask",
+	},
+	config = require("configs.tool.asynctasks"),
+}
+
 return user_tool
