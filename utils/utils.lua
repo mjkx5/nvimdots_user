@@ -7,16 +7,7 @@ function M.print()
 end
 
 function M.copy_content()
-	local content = {
-		-- "'let @m = '",
-		" '{} '",
-		' .. expand("<cword>")',
-		" .. '() [' ",
-		' .. expand("%:p:.") ',
-		" .. ']' ",
-	}
-	return table.concat(content)
-	-- return 'expand("<cword>")' + "() "
+	return [[:let @m = '{} ' .. expand("<cword>") .. '() [' .. expand("%:p:.") .. ']'<cr><c-w>l]]
 end
 
 function M.filename()
