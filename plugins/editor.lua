@@ -6,4 +6,10 @@ user_editor["rainbowhxch/accelerated-jk.nvim"] = {
 	-- config = require("user.configs.editor.accelerated-jk"),
 }
 
+user_editor["folke/flash.nvim"] = {
+	lazy = true,
+	event = { "CursorHold", "CursorHoldI" },
+	config = require("configs.editor.flash"),
+}
+
 return user_editor
