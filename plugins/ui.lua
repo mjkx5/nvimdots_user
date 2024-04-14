@@ -1,6 +1,6 @@
 local user_ui = {}
 
-user_ui["jamespwilliams/bat.vim"] = {
+user_ui["polirritmico/monokai-nightasty.nvim"] = {
 	lazy = false,
 }
 

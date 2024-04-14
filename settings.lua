@@ -57,6 +57,6 @@ settings["null_ls_deps"] = { -- format
 	"black", -- python format
 }
 
-settings["colorscheme"] = "bat"
+settings["colorscheme"] = "monokai-nightasty"
 
 return settings
