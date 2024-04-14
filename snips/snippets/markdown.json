@@ -1,6 +1,6 @@
 {
     "txtblock": {
-        "prefix": "txt",
+        "prefix": "ttt",
         "body": [
             "```txt",
             "$0",
