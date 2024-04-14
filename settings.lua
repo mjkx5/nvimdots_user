@@ -57,4 +57,6 @@ settings["null_ls_deps"] = { -- format
 	"black", -- python format
 }
 
+settings["colorscheme"] = "bat"
+
 return settings
