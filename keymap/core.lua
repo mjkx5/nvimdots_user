@@ -20,6 +20,10 @@ return {
 
 	-- python replace log
 	-- ["n|ml"] = map_cmd(
-	-- 	[[:%s/print("\(.*\)")/\=printf('print("%s , file: %s, line: %s")', submatch(1), expand("%:p"), line("."))/g<cr>]]
+	-- [[:%s/\(print\)("\(.*\)")/\=printf('%s("%s , file: %s, line: %s")', submatch(1), submatch(2), expand("%:p"), line("."))/g<cr>]]
+	-- ),
+	--	rust place log
+	-- ["n|ml"] = map_cmd(
+	-- 	[[:%s/\(info!\)("\(.*\)")/\=printf('%s("%s , file: %s, line: %s")', submatch(1), submatch(2), expand("%:p"), line("."))/g<cr>]]
 	-- ),
 }
