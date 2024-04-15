@@ -18,4 +18,9 @@ user_tool["skywind3000/asynctasks.vim"] = {
 	config = require("configs.tool.asynctasks"),
 }
 
+user_tool["nvimtools/hydra.nvim"] = {
+	lazy = false,
+	config = require("configs.tool.hydra"),
+}
+
 return user_tool
