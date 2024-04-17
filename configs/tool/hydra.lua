@@ -51,7 +51,7 @@ return function()
 	Hydra({
 		name = "scroll screen",
 		mode = "n",
-		body = "ms",
+		body = ",",
 		config = {
 			color = "pink",
 		},
@@ -64,6 +64,7 @@ return function()
 			{ "h", cmd("BufferLineCyclePrev") },
 			{ "l", cmd("BufferLineCycleNext") },
 			{ "<Esc>", nil, { exit = true, nowait = true } },
+			{ ".", nil, { exit = true, nowait = true } },
 		},
 	})
 end
