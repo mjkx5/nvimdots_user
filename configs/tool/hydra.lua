@@ -65,6 +65,7 @@ return function()
 			{ "l", cmd("BufferLineCycleNext") },
 			{ "<Esc>", nil, { exit = true, nowait = true } },
 			{ ".", nil, { exit = true, nowait = true } },
+			{ "q", nil, { exit = true, nowait = true } },
 		},
 	})
 end
