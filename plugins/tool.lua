@@ -23,6 +23,11 @@ user_tool["nvimtools/hydra.nvim"] = {
 	config = require("configs.tool.hydra"),
 }
 
+user_tool["kelly-lin/ranger.nvim"] = {
+	lazy = false,
+	config = require("configs.tool.ranger"),
+}
+
 user_tool["willothy/flatten.nvim"] = {
 	lazy = false,
 	config = true,
