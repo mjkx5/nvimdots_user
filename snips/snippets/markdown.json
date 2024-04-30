@@ -7,5 +7,14 @@
             "```"
         ],
         "description": "Snippet for error"
+    },
+    "goblock": {
+        "prefix": "go",
+        "body": [
+            "```go",
+            "$0",
+            "```"
+        ],
+        "description": "Snippet for error"
     }
 }
