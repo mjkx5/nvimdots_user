@@ -16,42 +16,11 @@ settings["disabled_plugins"] = {
 	"fatih/vim-go",
 }
 
-settings["lsp_deps"] = function(defaults)
-	return {
-		"bashls",
-		"clangd",
-		"html",
-		"jsonls",
-		"lua_ls",
-		"lua_ls",
-		"basedpyright",
-	}
-end
+settings["lsp_deps"] = {
+	"basedpyright",
+}
 
-settings["treesitter_deps"] = function(defaults) -- highlight
-	return {
-		"bash",
-		"c",
-		"cpp",
-		"css",
-		"go",
-		"gomod",
-		"html",
-		"javascript",
-		"json",
-		-- "latex", -- disable latex
-		"lua",
-		"make",
-		"markdown",
-		"markdown_inline",
-		"python",
-		"rust",
-		"typescript",
-		"vimdoc",
-		"vue",
-		"yaml",
-	}
-end
+settings["treesitter_deps"] = {} -- highlight
 
 settings["null_ls_deps"] = { -- format
 	"black", -- python format
