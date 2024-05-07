@@ -12,7 +12,6 @@ settings["gui_config"] = {
 }
 
 settings["disabled_plugins"] = {
-	"nvim-tree/nvim-tree.lua",
 	"fatih/vim-go",
 }
 
