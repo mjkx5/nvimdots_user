@@ -12,4 +12,8 @@ user_editor["folke/flash.nvim"] = {
 	config = require("configs.editor.flash"),
 }
 
+user_editor["mizlan/iswap.nvim"] = {
+	lazy = true,
+	cmd = { "ISwap", "ISwapNode" },
+}
 return user_editor

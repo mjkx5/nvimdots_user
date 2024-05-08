@@ -2,6 +2,7 @@ local bind = require("keymap.bind")
 local map_callback = bind.map_callback
 local et = bind.escape_termcode
 local map_cmd = bind.map_cmd
+local map_cu = bind.map_cr
 
 return {
 
@@ -19,4 +20,8 @@ return {
 	["o|E"] = map_cmd("e"):with_noremap():with_silent():with_desc(""),
 	["o|b"] = map_cmd("B"):with_noremap():with_silent():with_desc(""),
 	["o|B"] = map_cmd("b"):with_noremap():with_silent():with_desc(""),
+
+	--- mizlan/iswap.nvim
+	["n|<leader>ms"] = map_cu("ISwap"):with_noremap():with_silent():with_desc("Iswap"),
+	["n|<leader>md"] = map_cu("ISwapNode"):with_noremap():with_silent():with_desc("IswapNode"),
 }
