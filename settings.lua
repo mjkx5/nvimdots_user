@@ -11,9 +11,7 @@ settings["gui_config"] = {
 	font_size = 11,
 }
 
-settings["disabled_plugins"] = {
-	"fatih/vim-go",
-}
+settings["disabled_plugins"] = {}
 
 settings["lsp_deps"] = {
 	"basedpyright",
