@@ -24,7 +24,8 @@ user_tool["keaising/im-select.nvim"] = {
 			default_command = "fcitx5-remote",
 
 			-- Restore the default input method state when the following events are triggered
-			set_default_events = { "VimEnter", "FocusGained", "InsertLeave", "CmdlineLeave" },
+			-- set_default_events = { "VimEnter", "FocusGained", "InsertLeave" },
+			set_default_events = { "InsertLeave" },
 
 			-- Show notification about how to install executable binary when binary missed
 			keep_quiet_on_no_binary = false,
