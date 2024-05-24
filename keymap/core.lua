@@ -16,6 +16,7 @@ return {
 	["n|<leader>ni"] = map_cmd("a {i} "):with_noremap():with_desc("print interface"),
 	["n|mm"] = map_cmd("zt"):with_desc("Redraw, line [count] at top of window"),
 	["n|mn"] = map_cmd("zb"):with_desc("Redraw, line [count] at top of window"),
+	["n|ml"] = map_cr("!rustrover %<cr>"):with_desc("open window in rustRover"),
 	["t|<c-cr>"] = map_cmd([[<C-\><C-n>]]):with_noremap():with_silent(), -- switch to normal mode in terminal.
 
 	-- python replace log

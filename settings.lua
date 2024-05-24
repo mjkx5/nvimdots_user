@@ -11,7 +11,9 @@ settings["gui_config"] = {
 	font_size = 11,
 }
 
-settings["disabled_plugins"] = {}
+settings["disabled_plugins"] = {
+	"mrcjkb/rustaceanvim",
+}
 
 settings["lsp_deps"] = {
 	"basedpyright",
@@ -23,6 +25,6 @@ settings["null_ls_deps"] = { -- format
 	"black", -- python format
 }
 
-settings["colorscheme"] = "monokai-nightasty"
+-- settings["colorscheme"] = "monokai-nightasty"
 
 return settings
