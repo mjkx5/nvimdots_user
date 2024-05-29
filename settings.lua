@@ -13,6 +13,7 @@ settings["gui_config"] = {
 
 settings["disabled_plugins"] = {
 	"mrcjkb/rustaceanvim",
+	"romainl/vim-cool", -- disable that plugin to enable search highlight.
 }
 
 settings["lsp_deps"] = {
