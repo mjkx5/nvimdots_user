@@ -16,4 +16,9 @@ user_editor["mizlan/iswap.nvim"] = {
 	lazy = true,
 	cmd = { "ISwap", "ISwapNode" },
 }
+
+user_editor["andersevenrud/nvim_context_vt"] = {
+	lazy = true,
+	cmd = { "NvimContextVtToggle" },
+}
 return user_editor
